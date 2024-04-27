@@ -1,0 +1,22 @@
+h1{
+    background-color: red;
+    color: blue;
+    font-size: 60px;
+    /*width: 1000px;*/
+    /*height: 1000px;*/
+}
+
+body{
+    font-size: 100px;
+    /*font-family: "Times New Roman";*/
+    font-family: "poppins", sans-serif;
+    /*text-align: center;*/
+    text-align: right;
+    /*font-weight: 100*/
+    font-weight: lighter;
+    /*text-decoration: line-through;*/
+}
+
+h6 {
+    text-decoration: line-through ;
+}

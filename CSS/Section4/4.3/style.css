@@ -1,0 +1,52 @@
+/*extenal CSS BY ELEMENT*/
+
+h1{
+    color: greenyellow;
+}
+
+h2{
+    color: orange;
+}
+
+/*Selecting by class*/
+
+.one{
+    color: red;
+}
+
+.two{
+    color: blue;
+}
+
+
+
+/*selecting by ID*/
+
+#first{
+    color: green;
+}
+
+#second{
+    color: aqua;
+}
+
+/*universal selector*/
+*{
+    color: maroon;
+    background-color: black;
+}
+
+
+
+/*types of selectors*/
+
+1. TYPE SELECTOR:
+2. CLASS SELECTOR:
+3. ID SELECTOR:
+4. ANTRIBUTE SELECTOR:
+5. PSEUDO-CLASS SELECTOR:
+6. PSEUDO-ELEMENT SELECTOR:
+7. DESCENDANT SELECTOR:
+8. CHILD SELECTOR:
+9. ADJACENT SIBLING SELECTOR:
+10 GROUPING SELECTOR•
