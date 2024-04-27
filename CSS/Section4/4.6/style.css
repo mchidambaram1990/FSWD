@@ -1,0 +1,7 @@
+h1:hover{
+    color: green;
+}
+input:focus{
+     outline: 2px red dotted;
+}
+

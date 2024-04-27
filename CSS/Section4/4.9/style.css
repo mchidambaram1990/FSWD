@@ -1,0 +1,23 @@
+h1{
+    /*!IMPORTANT TAKE PRECENDENCE OF ALL INLINE/INTERNAL/EXTERNAL/CLASS/ID/ELEMENT*/
+    color: red !important;
+}
+
+/* when comparing with element and Class- class takes precedence*/
+.one{
+    color: yellow;
+}
+
+/* when comparing with element and Class, ID- ID takes precedence*/
+#first{
+    color: blue;
+}
+
+
+
+SPECIFICITY ORDER
+Type Selector: 1 point
+Class Selector: 10 points
+ID Selector: 100 points
+Inline Styles: 1000 points
+!important: Infinity points (highest specificity)

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+   padding: 50px;
+}
+
+.section-1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-1__name{
+    font-size: 35px;
+}
+
+.section-1__title{
+    font-size: 30px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+.section-1__contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px
+}
+
+.section-2,.section-3,.section-4,.section-5{
+    /*background-color: orange;*/
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+}
+
+.section-2__description,.section-3_description,.section-4_description,.section-5_description{
+    /*background-color: orange;*/
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+}
+
+.section-5{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-5_social a{
+    color: lightblue;
+}
+
+.section-3 li,.section-4 li{
+    list-style: none;
+}
+
+.section-3 {
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    vertical-align: top;
+    /*width: 300px;*/
+
+}
+
+.section-4{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.intro{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px
+}
+
+.intro_name{
+    padding-bottom: 5px;
+}
+
+.intro_title{
+    padding-bottom: 10px;
+}
+.intro_home{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+    /*margin: 20px*/
+}
+
+.contact-form{
+    margin: 20px;
+
+}
+
+.contact-form_name,.contact-form_email,.contact-form_message{
+    margin-top: 10px;
+    /*border: none;*/
+    /*padding: 10px*/
+}
+
+.contact-form_name,.contact-form_email{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-form_message{
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+.contact-form_submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
+
+.section-5_1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+/*.section-2__about{*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*}*/

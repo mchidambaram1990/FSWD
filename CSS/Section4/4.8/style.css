@@ -1,0 +1,48 @@
+.card{
+    background-color: black;
+    width: 200px;
+    height: 550px;
+    color: white;
+    padding: 20px;
+
+    /*padding: 10px;*/
+}
+.card__button{
+    background-color: transparent;
+    color: white;
+    /*border: none;*/
+    border: 1px solid greenyellow;
+    padding: 5px;
+}
+.card__button:hover{
+    background-color: white;
+    color: black;
+}
+.card__button--red {
+    background-color: red;
+}
+/*img{*/
+/*    padding: 2px;*/
+/*}*/
+
+/*.one{*/
+/*    color: white;*/
+/*    padding-left: 5px;*/
+/*}*/
+
+/*.two{*/
+/*    color: white;*/
+/*    padding: 5px;*/
+/*}*/
+/*.three{*/
+/*    color: white;*/
+/*    border: 1px solid white*/
+/*}*/
+
+/*.four{*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*    padding: 5px;*/
+/*    border: 1px solid white;*/
+/*    margin: 5px;*/
+/*}*/
