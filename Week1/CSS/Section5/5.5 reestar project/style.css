@@ -1,0 +1,78 @@
+.headline{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+    padding: 15px;
+    /*line-height: 5;*/
+
+}
+
+*{
+    padding: 0px;
+    margin: 0;
+}
+/*.container{*/
+/*    text-align: center;*/
+/*}*/
+.container{
+    text-align: center;
+}
+.container-1,.container-2,.container-3,.container-4{
+    border: 1px solid black;
+    width: 200px;
+    height:370px;
+    /*text-align: center;*/
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.container-1 img, .container-2 img, .container-3__image,.container-4__image{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.container-1 button,.container-2 button,.container-3 button,.container-4 button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 10px
+}
+
+.container-1 button:hover,.container-2 button:hover,.container-3 button:hover,.container-4 button:hover{
+    background-color: green;
+    color: black;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+.contact form {
+    text-align: center;
+    padding-left: 780px;
+    padding-top: 10px;
+}
+.contact button{
+    background-color: yellowgreen;
+    color: black;
+    border: 1px solid red;
+    padding: 5px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 10px
+}
+
+
+
+
+
+
+
+
