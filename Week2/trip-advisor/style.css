@@ -4,8 +4,8 @@
 }
 
 .main{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar{
@@ -169,8 +169,8 @@
 
 .tp-phone_text{
     position: absolute;
-    bottom: 40%;
-    left:30%;
+    bottom: 20%;
+    left:20%;
 }
 
 .tp-phone_text_1 {
@@ -341,13 +341,13 @@
 
 .explore{
     width: 100%;
-    height:350px;
+    height: 500px;
     background-color: #FAF1ED
 }
 
 .explore_container{
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-top: 20px;
     /*padding-bottom: 20px*/
 }
@@ -359,11 +359,13 @@
     align-items: center;
     flex-wrap: wrap;
     flex-basis: 26%;
-    gap:3px
+    gap:3px;
+    height: auto
 }
 
 .explore_container_main img{
     width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -379,7 +381,7 @@
 
 .explore_container_main1,.explore_container_main2, .explore_container_main3 {
     width: 32%;
-    height: 280px;
+    height: 330px;
     border: 1px solid #FAF1ED;
 }
 
@@ -400,9 +402,10 @@
 .box1{
     display: flex;
     /*justify-content: space-between;*/
-    gap: 50px;
-    margin-left: 600px;
-    margin-right: 600px;
+    gap: 100px;
+    padding: 50px;
+    /*margin-left: 600px;*/
+    /*margin-right: 600px;*/
     flex-wrap: wrap;
     /*align-items: center;*/
 }
@@ -415,10 +418,10 @@
     text-decoration: underline;
 }
 .box2-trip{
-    width: 260px;
-    padding-left: 200px;
+    width: 300px;
+    padding-left: 300px;
     /*justify-content: flex-end;*/
-    /*padding-right: 500px;*/
+    /*padding-right:500px;*/
 }
 
 /*.about{*/
