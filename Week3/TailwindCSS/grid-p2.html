@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .container-center{
+            background-color: lightblue;
+            display: grid;
+            grid-template-rows: 1fr 3fr 1fr;
+        }
+        .header{
+            background-color: lightseagreen;
+            height: 100px;
+            color: white;
+            font-size: 50px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .middle{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        .aside{
+            background-color: green;
+            color: white;
+            margin: 20px;
+            font-size: 50px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .article{
+            background-color: orange;
+            margin: 20px;
+            color: white;
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+        }
+
+        .article-headline{
+            display: grid;
+            justify-content: center;
+            align-items: end;
+            font-size: 30px;
+        }
+
+        .article-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .image{
+            border: 1px solid orange;
+            background-color: coral;
+            margin: 20px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer{
+            background-color: lightseagreen ;
+            height: 100px;
+            color: white;
+            font-size: 50px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+    </style>
+    <title>Grid-p2</title>
+</head>
+<body>
+    <div class="container-center">
+        <div class="header">header</div>
+        <div class="middle">
+            <div class="aside">Aside</div>
+            <div class="article">
+                <div class="article-headline">Article</div>
+                <div class="article-container">
+                    <div class="image">Image</div>
+                    <div class="image">Image</div>
+                    <div class="image">Image</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+
+    </div>
+</body>
+</html>

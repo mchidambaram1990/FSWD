@@ -16,6 +16,7 @@ body{
     top: 0;
     background-color: white;
     z-index: 1;
+    flex-wrap: wrap;
 .title{
         color: #A435F0;
     }
